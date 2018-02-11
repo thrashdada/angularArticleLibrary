@@ -1,0 +1,12 @@
+.card {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6rem;
+    .card-body {
+        p {
+            font-size: .8rem;
+            font-weight: 200;
+        }
+    }
+}

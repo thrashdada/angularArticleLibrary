@@ -1,0 +1,140 @@
+<section class="advancedFilter">
+    <div class="card">
+        <!-- <div class="card-header">
+            Content Request
+        </div> -->
+        <div class="card-body text-center">
+            <img src="../assets/images/request.svg" class="img-fluid mx-auto" alt="Request">
+            <button class="btn btn-primary btn-block" data-toggle="modal" data-target="#requestModal" data-step="3" data-intro="its a button!!!">Request Content</button>
+        </div>
+    </div>
+    <!-- request content modal -->
+    <div class="modal fade" id="requestModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="requestModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input class="form-control form-control-sm" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input class="form-control form-control-sm" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input class="form-control form-control-sm" type="email" />
+                    </div>
+                    <div class="form-group">
+                        <label>Partner Name</label>
+                        <input class="form-control form-control-sm" type="text" />
+                    </div>
+                    <div class="form-group">
+                        <label>Notes</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- request content modal -->
+    <div class="card">
+        <div class="card-header">
+            Advanced Filter
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label>Category</label>
+                <div class="cat-wrapper">
+                    <div class="cat-col">
+                        <div class="checkbox-wrapper">
+                            <input id="toggle1" type="checkbox">
+                            <label class="checkbox" for="toggle1">SMB</label>
+                            <input id="toggle2" type="checkbox">
+                            <label class="checkbox" for="toggle2">Education</label>
+                            <input id="toggle3" type="checkbox">
+                            <label class="checkbox" for="toggle3">Gaming</label>
+                            <input id="toggle7" type="checkbox">
+                            <label class="checkbox" for="toggle7">Health</label>
+                            <input id="toggle9" type="checkbox">
+                            <label class="checkbox" for="toggle9">Media</label>
+                            <input id="toggle11" type="checkbox">
+                            <label class="checkbox" for="toggle11">Software</label>
+                            <input id="toggle12" type="checkbox">
+                            <label class="checkbox" for="toggle12">Security</label>
+                            <input id="toggle15" type="checkbox">
+                            <label class="checkbox" for="toggle15">Cloud</label>
+                            <input id="toggle16" type="checkbox">
+                            <label class="checkbox" for="toggle16">Workstations</label>
+                        </div>
+                    </div>
+                    <div class="cat-col right">
+                        <div class="checkbox-wrapper">
+                            <input id="toggle4" type="checkbox">
+                            <label class="checkbox" for="toggle4">Engineering</label>
+                            <input id="toggle5" type="checkbox">
+                            <label class="checkbox" for="toggle5">Enterprise</label>
+                            <input id="toggle6" type="checkbox">
+                            <label class="checkbox" for="toggle6">Government</label>
+                            <input id="toggle8" type="checkbox">
+                            <label class="checkbox" for="toggle8">Manufacturing</label>
+                            <input id="toggle10" type="checkbox">
+                            <label class="checkbox" for="toggle10">Datancentre</label>
+                            <input id="toggle13" type="checkbox">
+                            <label class="checkbox" for="toggle13">Networking</label>
+                            <input id="toggle14" type="checkbox">
+                            <label class="checkbox" for="toggle14">Storage</label>
+                            <input id="toggle17" type="checkbox">
+                            <label class="checkbox" for="toggle17">Print</label>
+                            <input id="toggle18" type="checkbox">
+                            <label class="checkbox" for="toggle18">Managed Services</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label>Month</label>
+                        <select class="form-control form-control-sm">
+                            <option>-- Select Month --</option>
+                            <option>January</option>
+                            <option>February</option>
+                            <option>March</option>
+                            <option>April</option>
+                            <option>May</option>
+                            <option>June</option>
+                            <option>July</option>
+                            <option>August</option>
+                            <option>September</option>
+                            <option>October</option>
+                            <option>November</option>
+                            <option selected>December</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <label>Year</label>
+                        <select class="form-control form-control-sm">
+                            <option>2018</option>
+                            <option selected>2017</option>
+                            <option>2016</option>
+                            <option>2015</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
